@@ -20,7 +20,7 @@ Use this module to embed the Raspberry Pi camera feed in your MagicMirror. On a 
 
 ```bash
 cd /path/to/MagicMirror/modules
-git clone <repo-url> MMM-PiCameraStream
+git clone https://github.com/GEmanuel2558/MMM-PiCameraStream.git
 ```
 
 Restart MagicMirror after installation.
