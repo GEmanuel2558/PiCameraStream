@@ -1,0 +1,32 @@
+.mmm-picamerastream {
+  display: block;
+}
+
+.mmm-picamerastream-video-container {
+  display: block;
+}
+
+.mmm-picamerastream-video-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+}
+
+.mmm-picamerastream-status {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.mmm-picamerastream-status.online {
+  color: #2ecc71; /* green */
+}
+
+.mmm-picamerastream-status.offline {
+  color: #e74c3c; /* red */
+}
+
+.mmm-picamerastream-status.connecting {
+  color: #f1c40f; /* yellow */
+}
